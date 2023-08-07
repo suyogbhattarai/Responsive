@@ -1,0 +1,25 @@
+@media (min-width:481px) and (max-width:768px) {
+    html {font-size: 110%;}
+    .banner h1{text-align: center;}
+    .banner img{width: 70%;display: flex;height: 60%;}
+    
+    
+    
+    
+
+}
+@media (min-width:769px)  {
+    html {font-size: 130%;}
+    h1{font-size: 4rem;}
+   nav span{display: none;}
+    .header nav ul {display: flex;justify-content: space-between;gap: 20px;align-items: center;font-size: smaller;}
+    
+    .header .btn{border-radius: 10px;border: 2px solid black;display: flex;align-items: center  ;padding: 5px 20px;}
+    .banner{display: flex;justify-content: center;gap: 90px;}
+    .left{order: 1;width: 50%;}
+    .right{order: 2;width: 50%;}
+    .banner .btn{display: inline-block;border-radius: 10px;}
+   
+    .ban-2 .btn{display: inline;text-align: center;position: absolute;left: 50%;transform: translateX(-50%);}
+    .ban-2 .images{display: flex;justify-content: center;flex-direction: row;flex-wrap: wrap;gap: 150px;}
+    .brand{width: 20%;filter: grayscale(100%);} 
